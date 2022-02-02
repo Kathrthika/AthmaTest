@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AthmaTestSuite" class="navigator-link">
+              <span class="suite-name border-skipped">AthmaTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AthmaTestSuite" class="navigator-link ">
+                    <span>C:\Users\339154\Downloads\auto\AthmaTesting\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AthmaTestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AthmaTestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AthmaTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AthmaTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AthmaTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AthmaTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,  1 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-AthmaTestSuite" class="hide-methods skipped suite-AthmaTestSuite"> (hide)</a> <!-- hide-methods skipped suite-AthmaTestSuite -->
+                      <a href="#" panel-name="suite-AthmaTestSuite" class="show-methods skipped suite-AthmaTestSuite"> (show)</a> <!-- show-methods skipped suite-AthmaTestSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-AthmaTestSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-AthmaTestSuite" title="com.athma.qa.testcases.NewRegistrationTest" class="method navigator-link" hash-for-method="multipleregisterpatientTest(Karthika100, 22)">multipleregisterpatientTest(Karthika100, 22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-AthmaTestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AthmaTestSuite" class="hide-methods passed suite-AthmaTestSuite"> (hide)</a> <!-- hide-methods passed suite-AthmaTestSuite -->
+                      <a href="#" panel-name="suite-AthmaTestSuite" class="show-methods passed suite-AthmaTestSuite"> (show)</a> <!-- show-methods passed suite-AthmaTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-AthmaTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AthmaTestSuite" title="com.athma.qa.testcases.NewRegistrationTest" class="method navigator-link" hash-for-method="multipleregisterpatientTest(Karthika55, 22)">multipleregisterpatientTest(Karthika55, 22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AthmaTestSuite" title="com.athma.qa.testcases.NewRegistrationTest" class="method navigator-link" hash-for-method="multipleregisterpatientTest(Karthika33, 22)">multipleregisterpatientTest(Karthika33, 22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AthmaTestSuite" title="com.athma.qa.testcases.NewRegistrationTest" class="method navigator-link" hash-for-method="multipleregisterpatientTest(Karthika11, 21)">multipleregisterpatientTest(Karthika11, 21)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AthmaTestSuite" title="com.athma.qa.testcases.NewRegistrationTest" class="method navigator-link" hash-for-method="multipleregisterpatientTest(Karthika22, 22)">multipleregisterpatientTest(Karthika22, 22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AthmaTestSuite" title="com.athma.qa.testcases.NewRegistrationTest" class="method navigator-link" hash-for-method="multipleregisterpatientTest(Karthika44, 22)">multipleregisterpatientTest(Karthika44, 22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AthmaTestSuite" title="com.athma.qa.testcases.NewRegistrationTest" class="method navigator-link" hash-for-method="multipleregisterpatientTest(Karthika77, 22)">multipleregisterpatientTest(Karthika77, 22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AthmaTestSuite" title="com.athma.qa.testcases.NewRegistrationTest" class="method navigator-link" hash-for-method="multipleregisterpatientTest(Karthika88, 22)">multipleregisterpatientTest(Karthika88, 22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AthmaTestSuite" title="com.athma.qa.testcases.NewRegistrationTest" class="method navigator-link" hash-for-method="multipleregisterpatientTest(Karthika66, 22)">multipleregisterpatientTest(Karthika66, 22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AthmaTestSuite" title="com.athma.qa.testcases.NewRegistrationTest" class="method navigator-link" hash-for-method="multipleregisterpatientTest(Karthika99, 22)">multipleregisterpatientTest(Karthika99, 22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AthmaTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AthmaTestSuite" class="panel AthmaTestSuite">
+          <div class="suite-AthmaTestSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.athma.qa.testcases.NewRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleregisterpatientTest(Karthika100, 22)">
+                  </a> <!-- multipleregisterpatientTest(Karthika100, 22) -->
+                  <span class="method-name">multipleregisterpatientTest</span>
+                  <span class="parameters">(Karthika100, 22)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;sb-subitems-link&quot; href=&quot;https://sqa.narayanahealth.org:7076/patient-registration&quot; ng-reflect-ng-class=&quot;[object Object]&quot;&gt;...&lt;/a&gt; is not clickable at point (135, 24). Other element would receive the click: &lt;span&gt;...&lt;/span&gt;
+  (Session info: chrome=97.0.4692.71)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CORPLPW000052&apos;, ip: &apos;10.120.1.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\339154\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc228226f71a63787547acce0d2975c6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+	at com.athma.qa.pages.HomePage.clickonPatientregistrationsubmenu(HomePage.java:50)
+	at com.athma.qa.testcases.NewRegistrationTest.setup(NewRegistrationTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AthmaTestSuite-class-skipped -->
+          <div class="suite-AthmaTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.athma.qa.testcases.NewRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleregisterpatientTest(Karthika55, 22)">
+                  </a> <!-- multipleregisterpatientTest(Karthika55, 22) -->
+                  <span class="method-name">multipleregisterpatientTest</span>
+                  <span class="parameters">(Karthika55, 22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleregisterpatientTest(Karthika33, 22)">
+                  </a> <!-- multipleregisterpatientTest(Karthika33, 22) -->
+                  <span class="method-name">multipleregisterpatientTest</span>
+                  <span class="parameters">(Karthika33, 22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleregisterpatientTest(Karthika11, 21)">
+                  </a> <!-- multipleregisterpatientTest(Karthika11, 21) -->
+                  <span class="method-name">multipleregisterpatientTest</span>
+                  <span class="parameters">(Karthika11, 21)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleregisterpatientTest(Karthika22, 22)">
+                  </a> <!-- multipleregisterpatientTest(Karthika22, 22) -->
+                  <span class="method-name">multipleregisterpatientTest</span>
+                  <span class="parameters">(Karthika22, 22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleregisterpatientTest(Karthika44, 22)">
+                  </a> <!-- multipleregisterpatientTest(Karthika44, 22) -->
+                  <span class="method-name">multipleregisterpatientTest</span>
+                  <span class="parameters">(Karthika44, 22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleregisterpatientTest(Karthika77, 22)">
+                  </a> <!-- multipleregisterpatientTest(Karthika77, 22) -->
+                  <span class="method-name">multipleregisterpatientTest</span>
+                  <span class="parameters">(Karthika77, 22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleregisterpatientTest(Karthika88, 22)">
+                  </a> <!-- multipleregisterpatientTest(Karthika88, 22) -->
+                  <span class="method-name">multipleregisterpatientTest</span>
+                  <span class="parameters">(Karthika88, 22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleregisterpatientTest(Karthika66, 22)">
+                  </a> <!-- multipleregisterpatientTest(Karthika66, 22) -->
+                  <span class="method-name">multipleregisterpatientTest</span>
+                  <span class="parameters">(Karthika66, 22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleregisterpatientTest(Karthika99, 22)">
+                  </a> <!-- multipleregisterpatientTest(Karthika99, 22) -->
+                  <span class="method-name">multipleregisterpatientTest</span>
+                  <span class="parameters">(Karthika99, 22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AthmaTestSuite-class-passed -->
+        </div> <!-- panel AthmaTestSuite -->
+        <div panel-name="test-xml-AthmaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\339154\Downloads\auto\AthmaTesting\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AthmaTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.athma.ExtentReportListner.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AthmaTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.athma.qa.testcases.NewRegistrationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AthmaTest --&gt;
+&lt;/suite&gt; &lt;!-- AthmaTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AthmaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AthmaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AthmaTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AthmaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AthmaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AthmaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AthmaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AthmaTestSuite');
+function tableData_AthmaTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'multipleregisterpatientTest')
+data.setCell(0, 2, 'com.athma.qa.testcases.NewRegistrationTest')
+data.setCell(0, 3, 18497);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'multipleregisterpatientTest')
+data.setCell(1, 2, 'com.athma.qa.testcases.NewRegistrationTest')
+data.setCell(1, 3, 10525);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'multipleregisterpatientTest')
+data.setCell(2, 2, 'com.athma.qa.testcases.NewRegistrationTest')
+data.setCell(2, 3, 9052);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'multipleregisterpatientTest')
+data.setCell(3, 2, 'com.athma.qa.testcases.NewRegistrationTest')
+data.setCell(3, 3, 8814);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'multipleregisterpatientTest')
+data.setCell(4, 2, 'com.athma.qa.testcases.NewRegistrationTest')
+data.setCell(4, 3, 8672);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'multipleregisterpatientTest')
+data.setCell(5, 2, 'com.athma.qa.testcases.NewRegistrationTest')
+data.setCell(5, 3, 8504);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'multipleregisterpatientTest')
+data.setCell(6, 2, 'com.athma.qa.testcases.NewRegistrationTest')
+data.setCell(6, 3, 8458);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'multipleregisterpatientTest')
+data.setCell(7, 2, 'com.athma.qa.testcases.NewRegistrationTest')
+data.setCell(7, 3, 8167);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'multipleregisterpatientTest')
+data.setCell(8, 2, 'com.athma.qa.testcases.NewRegistrationTest')
+data.setCell(8, 3, 8100);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'multipleregisterpatientTest')
+data.setCell(9, 2, 'com.athma.qa.testcases.NewRegistrationTest')
+data.setCell(9, 3, 0);
+window.suiteTableData['AthmaTestSuite']= { tableData: data, tableDiv: 'times-div-AthmaTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-AthmaTestSuite">
+              </div> <!-- times-div-AthmaTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AthmaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AthmaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AthmaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.athma.qa.testcases.NewRegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">singleregisterpatientTest</span>
+                <br/>
+                <span class="ignored-method-name">newregistrationTitletets</span>
+                <br/>
+                <span class="ignored-method-name">printprefix</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AthmaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.athma.qa.testcases.NewRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multipleregisterpatientTest(Karthika11, 21)</span>
+                <span class="method-start">14924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">33424 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">34213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multipleregisterpatientTest(Karthika22, 22)</span>
+                <span class="method-start">46000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">55054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">56195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multipleregisterpatientTest(Karthika33, 22)</span>
+                <span class="method-start">73236 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">81909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">83065 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multipleregisterpatientTest(Karthika44, 22)</span>
+                <span class="method-start">104841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">113300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">114581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multipleregisterpatientTest(Karthika55, 22)</span>
+                <span class="method-start">144420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">152521 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">153220 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multipleregisterpatientTest(Karthika66, 22)</span>
+                <span class="method-start">172010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">180825 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">181838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multipleregisterpatientTest(Karthika77, 22)</span>
+                <span class="method-start">204188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">214715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">215745 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multipleregisterpatientTest(Karthika88, 22)</span>
+                <span class="method-start">231414 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">239583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">240782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multipleregisterpatientTest(Karthika99, 22)</span>
+                <span class="method-start">254837 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">263343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">264991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multipleregisterpatientTest(Karthika100, 22)</span>
+                <span class="method-start">278360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">278365 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
